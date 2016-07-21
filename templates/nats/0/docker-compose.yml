@@ -1,4 +1,5 @@
 nats:
   image: nats:0.8.1
+  restart: always
   ports:
     - ${public_port}:4222

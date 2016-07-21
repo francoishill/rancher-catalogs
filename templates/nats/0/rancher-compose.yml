@@ -11,6 +11,3 @@
       required: true
       default: "4222"
       type: "int"
-
-
-nats:
