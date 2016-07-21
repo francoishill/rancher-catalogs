@@ -1,0 +1,4 @@
+nats:
+  image: nats:0.8.1
+  ports:
+    - ${public_port}:4222

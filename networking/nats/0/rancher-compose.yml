@@ -1,0 +1,16 @@
+.catalog:
+  name: "Nats"
+  version: "0.8.1"
+  description: "High performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures"
+  uuid: nats-0
+  minimum_rancher_version: v0.51.0
+  questions:    
+    - variable: public_port
+      description: "Public port to link to container port 4222"
+      label: "Public Port"
+      required: true
+      default: "4222"
+      type: "int"
+
+
+nats:
