@@ -1,5 +1,5 @@
-name: Wordpress
+name: Nats
 description: |
-  Blog tool, publishing platform and CMS
-version: v0.1-educaas1
-category: Blogging
+  High performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures
+version: 0.8.1
+category: Messaging
